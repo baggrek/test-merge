@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Create Pull Request
-        uses: baggrek/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v3
         with:
           branch: test1
           title: 'Automated PR from merge'
